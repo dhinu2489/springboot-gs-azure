@@ -1,0 +1,7 @@
+E:\Codebase\Azure -Projects\gs-spring-boot-azure>ftp
+ftp> open waws-prod-dm1-029.ftp.azurewebsites.windows.net
+User (waws-prod-dm1-029.drip.azurewebsites.windows.net:(none)): gs-springboot-azure\gs-springboot-azure
+Password:
+ftp> cd /site/wwwroot
+ftp> put gs-spring-boot-0.1.0.jar
+ftp> put web.config
